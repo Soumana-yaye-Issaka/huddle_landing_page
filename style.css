@@ -4,15 +4,14 @@ body{
     height: 100vh;
     font-weight: 400,700;
     font-size: 18px;
-    
 }
 .Conteneur{
     width: 100%;
-    
 }
 header{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 header button{
     border-radius: 10px;
@@ -35,12 +34,14 @@ header button:hover{
     background-image: url(./bg-hero-desktop.svg);
     background-size: cover;
     background-color: hsl(322, 100%, 98%);
+    padding: 20px;
 }
 .Champ1{
     margin-top: 150px;
 }
 h1{
     font-size: 3em;
+    font-weight: 600;
 }
 h2{
     font-size: 2.2em;
@@ -68,6 +69,7 @@ h2{
     border-radius: 10px;
     margin: 50px;
     box-shadow: -1px 0px 12px 1px rgba(78,78,78,0.72);
+    padding-inline: 25px;
 }
 .block2 img{
     height: 100%;
@@ -113,10 +115,11 @@ footer{
     height: auto;
     color: white;
     gap: 50px;
+    padding: 40px;
 }
 .block4{
     display: flex;
-    align-items: center;
+    margin-top: 100px;
     gap: 30px;
 }
 .block4 img{
